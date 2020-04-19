@@ -30,3 +30,13 @@ nrm ls
 添加仓库
 git remote add origin https://github.com/then0917/vuemallt.git
 git push -u origin master
+
+
+
+
+##步骤==============
+
+1.创建项目目录
+2.基本css样式
+3.配置项目路径别名
+4.配置文件vue.config.js .editorconfig
