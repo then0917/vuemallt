@@ -3,9 +3,17 @@
       <img src="~assets/img/1.jpg" alt="">
   </div> -->
   <tab-bar>
-    <tab-bar-item v-for="i in menu" :key="i.name">
+    <!-- <tab-bar-item v-for="i in menu" :key="i.name">
       <img slot="item-icon" src="~assets/img/home.png" >
       <div slot="item-text">{{i.name}}</div>
+    </tab-bar-item> -->
+    <tab-bar-item path="/home">
+      <img slot="item-icon" src="~assets/img/home.png" >
+      <div slot="item-text">首页</div>
+    </tab-bar-item>
+    <tab-bar-item path="/profile">
+      <img slot="item-icon" src="~assets/img/profile.png" >
+      <div slot="item-text">我的</div>
     </tab-bar-item>
   </tab-bar>
 </template>
