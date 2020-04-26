@@ -8,11 +8,11 @@
       <div slot="item-text">{{i.name}}</div>
     </tab-bar-item> -->
     <tab-bar-item path="/home">
-      <img slot="item-icon" src="~assets/img/home.png" >
+      <img slot="item-icon" src="~assets/img/home.png" />
       <div slot="item-text">首页</div>
     </tab-bar-item>
     <tab-bar-item path="/profile">
-      <img slot="item-icon" src="~assets/img/profile.png" >
+      <img slot="item-icon" src="~assets/img/profile.png" />
       <div slot="item-text">我的</div>
     </tab-bar-item>
   </tab-bar>
@@ -44,7 +44,8 @@ export default {
           name: "客户",
           type: "customer",
           img: "~assets/img/customer.png"
-        },{
+        },
+        {
           name: "项目",
           type: "project",
           img: "~assets/img/project.png"
@@ -59,5 +60,4 @@ export default {
   }
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>
